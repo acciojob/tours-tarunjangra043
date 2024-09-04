@@ -1,0 +1,63 @@
+.tour {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  position: relative;
+}
+
+.tour-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.tour-name {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.tour-price {
+  margin: 0;
+  color: #ab7a5f;
+  font-size: 1.5rem;
+}
+
+.tour-text {
+  margin-bottom: 1rem;
+}
+
+.btn-read {
+  background: none;
+  border: none;
+  color: #49a6e9;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.btn-read:hover {
+  text-decoration: underline;
+}
+
+.btn-delete {
+  background: #eb5757;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.btn-delete:hover {
+  background: #c0392b;
+}
